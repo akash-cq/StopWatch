@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+h1{
+    margin: 6vw;
+    width: 11vw;
+    /* border:1px solid rgb(195, 188, 188); */
+}
+.main{
+    margin: 1vw 15vw 0 32vw;
+}
+button{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+     background-color:whitesmoke;
+     color: black;
+     font-weight: bold;
+     margin: 1vw;
+}
+.notes{
+    height: 20vw;
+    width: 50vw;
+    border: 1px solid white;
+    margin: 2vw 15vw 1vw 20vw;
+    overflow-y: auto;
+
+
+}
+button:hover{
+    background-color: orange;
+}
